@@ -13,16 +13,16 @@ public class Demo {
          * 例如数组[ 2.0 , 4.0 , 6.0 , 4.0 ]
          * 经过方法运算得到新数组 [ 1.0 ,2.0 , 3.0 ,2.0 ]
          */
-        double[] numDouble = {2,4,6,4};
+        double[] numDouble = {2, 4, 6, 4};
         divideByTheFirstElement(numDouble);
-        for(int i =0;i < numDouble.length;i++){
+        for (int i = 0; i < numDouble.length; i++) {
             System.out.println(numDouble[i]);
         }
     }
 
     private static void divideByTheFirstElement(double[] numDouble) {
-        for(int i =numDouble.length-1;i>=0;i--){
-            numDouble[i]/=numDouble[0];
+        for (int i = numDouble.length - 1; i >= 0; i--) {
+            numDouble[i] /= numDouble[0];
         }
     }
 }
