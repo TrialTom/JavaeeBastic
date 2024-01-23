@@ -1,4 +1,4 @@
-package com.cs.javaee.array02;
+package com.cs.javaee.array02.yanghuitriangle;
 
 import java.util.Arrays;
 
